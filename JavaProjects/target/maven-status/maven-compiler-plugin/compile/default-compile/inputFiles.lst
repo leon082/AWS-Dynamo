@@ -1,0 +1,14 @@
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\Application.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\service\PragmaticoCrudService.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\dao\impl\PragmaticoCrudDaoImpl.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\service\impl\UserCrudServiceImpl.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\controller\UserCrudController.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\model\User.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\configuration\DynamoDBConfig.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\service\impl\PragmaticoCrudServiceImpl.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\dao\impl\UserCrudDaoImpl.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\dao\UserCrudDao.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\model\Pragmatico.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\dao\PragmaticoCrudDao.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\service\UserCrudService.java
+D:\Leon\Documents\JavaProjects\src\main\java\springBoot\aws\controller\PragmaticoCrudController.java

@@ -1,0 +1,16 @@
+springBoot\aws\controller\UserCrudController.class
+springBoot\aws\service\impl\UserCrudServiceImpl.class
+springBoot\aws\dao\impl\PragmaticoCrudDaoImpl.class
+springBoot\aws\service\impl\PragmaticoCrudServiceImpl.class
+springBoot\aws\Application.class
+springBoot\aws\model\User$UserBuilder.class
+springBoot\aws\dao\impl\UserCrudDaoImpl.class
+springBoot\aws\service\PragmaticoCrudService.class
+springBoot\aws\configuration\DynamoDBConfig.class
+springBoot\aws\model\User.class
+springBoot\aws\model\Pragmatico.class
+springBoot\aws\controller\PragmaticoCrudController.class
+springBoot\aws\service\UserCrudService.class
+springBoot\aws\dao\UserCrudDao.class
+springBoot\aws\model\Pragmatico$PragmaticoBuilder.class
+springBoot\aws\dao\PragmaticoCrudDao.class
