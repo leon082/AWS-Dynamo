@@ -26,7 +26,6 @@ public class DynamoDBConfig {
     @Profile("dev")
     @Bean
     public DynamoDBMapper dynamoDBMapper() {
-        System.out.println("dev bean");
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
                 .withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials(accesskey, secretkey)))
                 .withRegion(region)
@@ -37,11 +36,10 @@ public class DynamoDBConfig {
     @Profile("qa")
     @Bean
     public DynamoDBMapper dynamoDBMapperQa() {
-        System.out.println("qa bean");
         InstanceProfileCredentialsProvider provider = new InstanceProfileCredentialsProvider(false);
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
                 .withCredentials(provider)
                 .build();
-        return new DynamoDBMapper(client);
+        return new DynamoDBMapper(client, DynamoDBMapperConfig.DEFAULT);
     }
 }
