@@ -15,7 +15,7 @@ import springBoot.aws.service.UserCrudService;
 import java.util.logging.Logger;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api-users")
 public class UserCrudController {
 
     private final static Logger log = Logger.getLogger(UserCrudController.class.getName());
